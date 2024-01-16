@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  height: fit-content;
+  background: #223355;
+  justify-content: flex-end;
+}
+
+select {
+  margin: 2px 10px;
+  font-size: 10px;
+  background-color: #fff;
+  border-radius: 3px;
+  border: 0;
+}
+
+.body {
+  background: linear-gradient(#3b5986, #0b1f43);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 60px;
+}
+
+input {
+  outline: 0;
+  padding: 3px 5px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+}
